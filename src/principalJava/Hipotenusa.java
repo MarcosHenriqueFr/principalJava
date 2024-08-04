@@ -18,9 +18,9 @@ public class Hipotenusa {
 		
 		scanner.close();
 		
-		//String.format("Formatação c e a variavel");
+		//String.format("Formatação %.numberf e a variavel");
 		
-		System.out.println("Essa é a hipotenusa: "+String.format("%.2f", hipotenusa));
+		System.out.println("Essa é a hipotenusa: "+String.format("%.4f", hipotenusa));
 	}
 
 }
